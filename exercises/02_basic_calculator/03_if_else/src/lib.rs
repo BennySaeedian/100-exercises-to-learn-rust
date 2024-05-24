@@ -1,7 +1,5 @@
 /// Return `true` if `n` is even, `false` otherwise.
-fn is_even(n: u32) -> bool {
-    todo!()
-}
+fn is_even(n: u32) -> bool { n % 2 == 0 }
 
 #[cfg(test)]
 mod tests {
